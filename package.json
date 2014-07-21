@@ -1,0 +1,22 @@
+{
+  "name": "nw-angular",
+  "version": "0.0.1",
+  "description": "AngularJS module to help integrate your modules with the node-webkit JS library.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasconstantino/ng-webkit.git"
+  },
+  "keywords": [
+    "AngularJS",
+    "node-webkit"
+  ],
+  "author": "Lucas Constantino <lucas@taller.net.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasconstantino/ng-webkit/issues"
+  },
+  "homepage": "https://github.com/lucasconstantino/ng-webkit"
+}
