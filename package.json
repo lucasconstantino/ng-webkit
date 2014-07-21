@@ -1,7 +1,7 @@
 {
   "name": "nw-angular",
   "version": "0.0.1",
-  "description": "AngularJS module to help integrate your modules with the node-webkit JS library.",
+  "description": "AngularJS module to help integrate your application with the node-webkit JS library.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
