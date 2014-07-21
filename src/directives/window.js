@@ -22,7 +22,7 @@ angular.module('node-webkit')
       }
     };
   }])
-  
+
   /**
    * Fullscreen's the window on element click.
    */
@@ -48,7 +48,7 @@ angular.module('node-webkit')
       }
     };
   }])
-  
+
   /**
    * Minimizes the window on element click.
    */
