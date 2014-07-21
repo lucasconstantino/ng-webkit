@@ -15,15 +15,15 @@ angular.module('node-webkit').factory('nwWindow', [
     $rootScope.nwWindow = nwGui.Window.get();
 
     [ // Listen to these events to update scopes.
-      'loaded'
-    , 'focus'
-    , 'blur'
-    , 'minimize'
-    , 'minimize'
-    , 'maximize'
-    , 'unmaximize'
-    , 'enter-fullscreen'
-    , 'leave-fullscreen'
+      'loaded',
+      'focus',
+      'blur',
+      'minimize',
+      'minimize',
+      'maximize',
+      'unmaximize',
+      'enter-fullscreen',
+      'leave-fullscreen'
     ].forEach(function (eventName) {
       $rootScope.nwWindow.on(eventName, function() {
         $rootScope.$broadcast('window:' + eventName, arguments);
@@ -32,4 +32,4 @@ angular.module('node-webkit').factory('nwWindow', [
     });
 
     return $rootScope.nwWindow;
-  });
+  }]);
