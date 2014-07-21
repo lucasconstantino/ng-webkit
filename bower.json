@@ -1,0 +1,20 @@
+{
+  "name": "ng-webkit",
+  "version": "1.0.0",
+  "authors": [
+    "Lucas Constantino <lucas@taller.net.br>"
+  ],
+  "description": "AngularJS module to help integrate your modules with the node-webkit JS library.",
+  "keywords": [
+    "AngularJS",
+    "node-webkit"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
