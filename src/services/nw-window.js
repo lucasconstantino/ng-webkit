@@ -7,9 +7,9 @@
  */
 
 angular.module('node-webkit').factory('nwWindow', [
-    '$rootScope',
-    'nwGui'
-  ].concat(function ($rootScope, nwGui) {
+  '$rootScope',
+  'nwGui',
+  function ($rootScope, nwGui) {
 
     // Make window available to root scope.
     $rootScope.nwWindow = nwGui.Window.get();
@@ -32,4 +32,4 @@ angular.module('node-webkit').factory('nwWindow', [
     });
 
     return $rootScope.nwWindow;
-  }));
+  });

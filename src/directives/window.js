@@ -11,7 +11,7 @@ angular.module('node-webkit')
   /**
    * Closes the window on element click.
    */
-  .directive('nwWindowClose', function (nwWindow) {
+  .directive('nwWindowClose', ['nwWindow', function (nwWindow) {
     return {
       restrict: 'A',
       link: function (scope, element, attrs) {
@@ -21,12 +21,12 @@ angular.module('node-webkit')
         });
       }
     };
-  })
+  }])
   
   /**
    * Fullscreen's the window on element click.
    */
-  .directive('nwWindowFullscreen', function (nwWindow) {
+  .directive('nwWindowFullscreen', ['nwWindow', function (nwWindow) {
     return {
       restrict: 'A',
       link: function (scope, element, attrs) {
@@ -47,12 +47,12 @@ angular.module('node-webkit')
         });
       }
     };
-  })
+  }])
   
   /**
    * Minimizes the window on element click.
    */
-  .directive('nwWindowMinimize', function (nwWindow) {
+  .directive('nwWindowMinimize', ['nwWindow', function (nwWindow) {
     return {
       restrict: 'A',
       link: function (scope, element, attrs) {
@@ -62,4 +62,4 @@ angular.module('node-webkit')
         });
       }
     };
-  });
+  }]);
