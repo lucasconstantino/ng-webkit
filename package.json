@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/lucasconstantino/ng-webkit/issues"
   },
-  "homepage": "https://github.com/lucasconstantino/ng-webkit"
+  "homepage": "https://github.com/lucasconstantino/ng-webkit",
+  "devDependencies": {
+    "gulp": "^3.8.6"
+  }
 }
